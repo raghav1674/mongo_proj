@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <script>
+
+        function hello(e){
+            console.log(e.innerText);
+            document.getElementById("demo").innerHTML="<h1>HAPPY DIWALI</h1>";
+        }
+
+        function dbhello(e){
+            console.log(e.innerText);
+            document.getElementById("demo").innerHTML="<h1>Happy Children's Day</h1>";
+        }
+     
+    
+
+        
+    </script>
+</head>
+<body>
+
+    <p  id="demo" onmouseout="hello(this)" onmousemove="dbhello(this)">HELLO HOW ARE YOU??</p>
+
+    <img style="display: block;" id="bot">
+
+    <!-- <button type="button"  onclick="hello(this)">Click to Change Text.</button> -->
+    
+
+    <button type="button" onclick='document.getElementById("bot").src="/r1_400.gif"'>Click to see the Image</button>
+    <button type="button" onclick='document.getElementById("bot").src="/bot-login.gif"'>Click to see the Image</button>
+
+
+</body>
+</html>
