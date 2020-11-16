@@ -1,4 +1,4 @@
-from functools import reduce
+
 
 def mulitply(li):
     result=1
